@@ -16,7 +16,7 @@ int main (int argc, char** argv) {
 
     txt.show();
     txt.resize(640, 480);
-    QFile file(":/SyntaxHighlighter.cpp");
+    QFile file("C:/DevQt/redactor/syntaxhighlighter.cpp");
     file.open(QFile::ReadOnly);
     txt.setPlainText(QLatin1String(file.readAll()));
     return app.exec();

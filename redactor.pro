@@ -25,9 +25,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        SyntaxHighlighter.cpp \
         main.cpp
 
-HEADERS +=
+HEADERS += \
+    SyntaxHighlighter.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
